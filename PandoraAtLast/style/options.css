@@ -1,0 +1,80 @@
+/*
+Copyright 2011 Roque Pinel.
+
+This file is part of Pandora At Last.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+html
+{
+	width: 100%;
+	height: 100%;
+	/*background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#6C7178), to(#475F66));*/
+}
+
+body
+{
+	width: 540px;
+	margin: 10px auto;
+	font: normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#title
+{
+	color: black;
+	text-align: center;
+}
+
+#status
+{
+	text-align: center;
+	color: green;
+}
+
+	/* ---- options ---- */
+
+.options
+{
+	clear: both;
+	padding: 20px 0 20px 0;
+}
+
+.options fieldset
+{
+	background: #b5b5b5;
+}
+
+.options h3
+{
+	text-align: center;
+}
+
+.options label
+{
+	display: block;
+	cursor: default;
+}
+
+.options #buttons
+{
+	text-align: right;
+}
+
+	/* ---- credits ---- */
+
+.credits
+{
+	text-align: right;
+}
+
